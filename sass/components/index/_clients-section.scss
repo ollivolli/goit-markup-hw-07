@@ -1,0 +1,32 @@
+.clients{
+    display: flex;
+
+    &__logo{
+        fill: currentColor;
+        transition: var(--transition);
+    }
+    
+    
+    &__link{
+        border: 1px solid var(--client-color);
+        padding: 16px 32px;
+        min-width: 170px;
+        color: var(--client-color);
+        display: block;
+        transition: border var(--transition);
+    
+    }
+
+    
+    &__link:hover,
+    &__link:focus{
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
+    }
+    
+    
+    &__item:not(:last-child){
+        margin-right: 30px;
+    }
+}
+

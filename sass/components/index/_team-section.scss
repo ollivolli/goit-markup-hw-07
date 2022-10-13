@@ -1,0 +1,60 @@
+.bcg{
+    background-color: #F5F4FA;
+}
+
+.list-team .text{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.list-team .text-header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.list-team{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+background: #FFFFFF;
+}
+
+.social-container{
+    display: flex;
+    max-width: 206px;
+    height: 44px;
+margin: 16px 32px 30px 32px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+
+    &__link:not(:last-child){
+        margin-right: 10px;
+    }
+    
+    &__icon{
+        fill: currentColor;
+    }
+    
+    &__links{
+        color: var(--client-color);
+        background-color: #FFFFFF;
+        
+        @extend %flex-center;
+    
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        transition: color var(--transition), background-color var(--transition);
+    }
+    
+    &__links:hover,
+    &__links:focus{
+        background-color: var(--accent-color);
+        color: #FFFFFF;
+    }
+    
+}
+
+

@@ -1,0 +1,42 @@
+.features{
+  display: flex;
+
+& &__item + &__item{
+    margin-left: 30px;
+}
+
+&__wrapper{
+  display: inline-block;
+  width: 270px;
+}
+
+&__icon{
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background-color: var(--btn-color);
+  border-radius: 4px;
+  fill: currentColor;
+}
+
+&__text-header{
+  font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+&__text{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+margin-top: 20px;
+}
+
+}
+
+
+
+

@@ -1,0 +1,27 @@
+//Utils
+@import "./utils/variables";
+@import "./utils/common";
+@import "./utils/buttons";
+@import "./utils/templates";
+@import "./components/logo";
+
+//Header
+@import "./components/header";
+
+//Index
+@import "./components/index/hero-section";
+@import "./components/index/features-section";
+@import "./components/index/activities-section";
+@import "./components/index/team-section";
+@import "./components/index/clients-section";
+
+//Portfolio
+@import "./components/portfolio/projects-section";
+
+
+//Footer
+@import "./components/footer";
+
+//Modal
+@import "./components/modal/modal-style";
+@import "./components/modal/modal-forms";

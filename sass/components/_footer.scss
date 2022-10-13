@@ -1,0 +1,135 @@
+.footer-background{
+    background-color: #2F303A;  
+}
+
+
+.footer{
+    color: var(--primary-title-color);
+    font-style: normal;
+
+    &__contact{
+        color: rgba(255, 255, 255, 0.6);
+        font-style: normal;
+    }
+
+    &__position{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    &__general-container{
+        display: flex;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        align-items: flex-start;
+    
+    }
+}
+
+.adress {
+    display: block;
+    flex-direction: column;
+
+    &__position{
+        padding-top: 20px;
+    }
+
+    &__position .list{
+        flex-direction: column;
+    }
+
+    &__padding{
+        padding-top: 9px;
+    }
+}
+
+.footer-join{
+    margin-top: 72px;
+    margin-left: 70px;
+    height: 80px;
+
+   &__title{
+        margin-bottom: 20px;
+        color: var(--primary-title-color);
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    &__social-container{
+        display: flex;
+        height: 44px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__social{
+        display: flex;
+        padding-left: 0%;
+    }
+
+    &__social-item:not(:last-child){
+        margin-right: 10px;
+    }
+
+    &__icon{
+        fill: currentColor;
+    }
+
+    &__social-link{
+        color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        transition: background-color var(--transition);
+    }
+    
+    &__social-link:hover,
+    &__social-link:focus{
+        background-color: var(--accent-color);
+    }
+}
+
+
+
+.footer-subscribe{
+    margin-top: 72px;
+    margin-left: 93px;
+
+    &__form{
+        width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2784px;
+    padding-left: 16px;
+    margin-top: 20px;
+    margin-right: 12px;
+    
+    background: #2F303A;;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: none;
+    transition: var(--transition);
+    }
+    
+    &__form:focus{
+        border: 1px solid var(--accent-color);
+    }
+
+    &__title{
+        color: var(--primary-title-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__position{
+        margin: 0;
+        display: flex;
+    }
+
+}
